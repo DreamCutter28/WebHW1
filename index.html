@@ -82,12 +82,11 @@
         .row {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-around;
         }
 
         .col {
-            flex: 33.33%;
-            max-width: 33.33%;
+            width: 400px;
             box-sizing: border-box;
             padding: 15px;
         }
@@ -98,8 +97,20 @@
             justify-content: center;
         }
 
-        .colcompanies {
+        .colcompanies:nth-of-type(2) img {
+            position: relative;
+            top: 65px;
+        }
+        .colcompanies:nth-of-type(4) img {
+            position: relative;
+            top: 50px;
+        }
+        .colcompanies:nth-of-type(6) img {
+            position: relative;
+            top: 15px;
+        }
 
+        .colcompanies {
             box-sizing: border-box;
             padding: 15px;
             /* Выравнивание по правому краю */
@@ -109,6 +120,7 @@
 
         .testimonial {
             background: #DBDAEA;
+            height: 300px;
             padding: 30px;
         }
 
@@ -125,19 +137,18 @@
         }
 
         @media screen and (max-width:960px) {
-            .col{
+            .col {
                 flex: 100%;
                 max-width: 80%;
             }
         }
 
         @media screen and (max-width:600px) {
-            .col{
+            .col {
                 flex: 100%;
                 max-width: 100%;
             }
         }
-    
     </style>
 </head>
 
@@ -256,39 +267,39 @@
                         <h2>Возможные места прохождения производственной практики</h2>
                         <div class="rowcompanies">
                             <div class="colcompanies">
-                                <p><a href="https://www.ispsystem.ru">
+                                <a href="https://www.ispsystem.ru">
                                         <img src="https://res.cloudinary.com/degxf8vga/image/upload/v1666435364/WWW/ISPsystem_qgtfij.png"
-                                            alt="ISPsystem" width="200" height="160"></a></p>
+                                            alt="ISPsystem" width="200" height="160"></a>
                             </div>
                             <div class="colcompanies">
-                                <p><a href="https://www.croc.ru">
+                                <a href="https://www.croc.ru">
                                         <img src="https://res.cloudinary.com/degxf8vga/image/upload/v1666436624/WWW/croc_e6slfq.png"
-                                            alt="croc" width="125" height="33"></a></p>
+                                            alt="croc" width="125" height="33"></a>
                             </div>
                             <div class="colcompanies">
-                                <p><a href="https://enplusgroup.com/ru">
+                                <a href="https://enplusgroup.com/ru">
                                         <img src="https://res.cloudinary.com/degxf8vga/image/upload/v1666436623/WWW/en_jk1haf.png"
-                                            alt="en+" width="160" height="160"></a></p>
+                                            alt="en+" width="160" height="160"></a>
                             </div>
                             <div class="colcompanies">
-                                <p><a href="https://yandex.ru/company/main">
+                                <a href="https://yandex.ru/company/main">
                                         <img src="https://res.cloudinary.com/degxf8vga/image/upload/v1666436772/WWW/yandex_zsuqgo.png"
-                                            alt="yandex" width="200" height="58"></a></p>
+                                            alt="yandex" width="200" height="58"></a>
                             </div>
                             <div class="colcompanies">
-                                <p><a href="https://www.irkut.com/about/irkutsk-aviation-plant">
+                                <a href="https://www.irkut.com/about/irkutsk-aviation-plant">
                                         <img src="https://res.cloudinary.com/degxf8vga/image/upload/v1666436624/WWW/Irkut_rj7j9v.png"
-                                            alt="irkut" width="200" height="165"></a></p>
+                                            alt="irkut" width="200" height="165"></a>
                             </div>
                             <div class="colcompanies">
-                                <p><a href="https://rkit.ru">
+                                <a href="https://rkit.ru">
                                         <img src="https://res.cloudinary.com/degxf8vga/image/upload/v1666436624/WWW/rkit_nhhfx4.png"
-                                            alt="rkit" width="165" height="58"></a></p>
+                                            alt="rkit" width="165" height="58"></a>
                             </div>
                             <div class="colcompanies">
-                                <p><a href="https://1ps.ru">
+                                <a href="https://1ps.ru">
                                         <img src="https://res.cloudinary.com/degxf8vga/image/upload/v1666436623/WWW/1ps_epgbv5.webp"
-                                            alt="1ps" width="200" height="89"></a></p>
+                                            alt="1ps" width="200" height="89"></a>
                             </div>
                         </div>
 
